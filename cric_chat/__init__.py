@@ -1,1 +1,0 @@
-# Cricket Image Chatbot package

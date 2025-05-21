@@ -1,0 +1,393 @@
+
+[     UTC     ] Logs for cricchat-4g9cyv6ahpnkxi7gromdfp.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[06:16:18] 🖥 Provisioning machine...
+[06:16:18] 🎛 Preparing system...
+[06:16:18] ⛓ Spinning up manager process...
+[06:16:14] 🚀 Starting up repository: 'cric_chat', branch: 'main', main module: 'streamlit_app.py'
+[06:16:14] 🐙 Cloning repository...
+[06:16:15] 🐙 Cloning into '/mount/src/cric_chat'...
+
+[06:16:15] 🐙 Cloned repository!
+[06:16:15] 🐙 Pulling code changes from Github...
+[06:16:16] 📦 Processing dependencies...
+[06:16:16] 📦 Apt dependencies were installed from /mount/src/cric_chat/packages.txt using apt-get.
+Hit:1 http://deb.debian.org/debian bullseye InRelease
+Get:2 http://deb.debian.org/debian-security bullseye-security InRelease [27.2 kB]
+Get:3 http://deb.debian.org/debian bullseye-updates InRelease [44.1 kB]
+Get:4 https://packages.microsoft.com/debian/11/prod bullseye InRelease [3650 B]
+Get:5 http://deb.debian.org/debian-security bullseye-security/main amd64 Packages [369 kB]
+Get:6 https://packages.microsoft.com/debian/11/prod bullseye/main arm64 Packages [46.3 kB]
+Get:7 https://packages.microsoft.com/debian/11/prod bullseye/main amd64 Packages [196 kB]
+Fetched 686 kB in 2s (338 kB/s)
+Reading package lists...[2025-05-21 06:16:19.582862] 
+Reading package lists...[2025-05-21 06:16:20.503655] 
+Building dependency tree...[2025-05-21 06:16:20.784341] 
+Reading state information...[2025-05-21 06:16:20.787794] 
+build-essential is already the newest version (12.9).
+The following additional packages will be installed:
+  javascript-common libexpat1-dev libjs-jquery libjs-sphinxdoc
+  libjs-underscore libpq5 libpython3-dev libpython3.9 libpython3.9-dev
+  python3-distutils python3-lib2to3 python3.9-dev zlib1g-dev
+Suggested packages:
+  apache2 | lighttpd | httpd postgresql-doc-13
+The following NEW packages will be installed:
+  javascript-common libexpat1-dev libjs-jquery libjs-sphinxdoc
+  libjs-underscore libpq-dev libpq5 libpython3-dev libpython3.9
+  libpython3.9-dev python3-dev python3-distutils python3-lib2to3 python3.9-dev
+  zlib1g-dev
+0 upgraded, 15 newly installed, 0 to remove and 2 not upgraded.
+Need to get 8019 kB of archives.
+After this operation, 33.3 MB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bullseye/main amd64 javascript-common all 11+nmu1 [6260 B]
+Get:2 http://deb.debian.org/debian-security bullseye-security/main amd64 libexpat1-dev amd64 2.2.10-2+deb11u7 [143 kB]
+Get:3 http://deb.debian.org/debian bullseye/main amd64 libjs-jquery all 3.5.1+dfsg+~3.5.5-7 [315 kB]
+Get:4 http://deb.debian.org/debian bullseye/main amd64 libjs-underscore all 1.9.1~dfsg-3 [100 kB]
+Get:5 http://deb.debian.org/debian bullseye/main amd64 libjs-sphinxdoc all 3.4.3-2 [127 kB]
+Get:6 http://deb.debian.org/debian-security bullseye-security/main amd64 libpq5 amd64 13.21-0+deb11u1 [185 kB]
+Get:7 http://deb.debian.org/debian-security bullseye-security/main amd64 libpq-dev amd64 13.21-0+deb11u1 [145 kB]
+Get:8 http://deb.debian.org/debian-security bullseye-security/main amd64 libpython3.9 amd64 3.9.2-1+deb11u3 [1692 kB]
+Get:9 http://deb.debian.org/debian-security bullseye-security/main amd64 libpython3.9-dev amd64 3.9.2-1+deb11u3 [4341 kB]
+Get:10 http://deb.debian.org/debian bullseye/main amd64 libpython3-dev amd64 3.9.2-3 [21.7 kB]
+Get:11 http://deb.debian.org/debian bullseye/main amd64 zlib1g-dev amd64 1:1.2.11.dfsg-2+deb11u2 [191 kB]
+Get:12 http://deb.debian.org/debian-security bullseye-security/main amd64 python3.9-dev amd64 3.9.2-1+deb11u3 [507 kB]
+Get:13 http://deb.debian.org/debian bullseye/main amd64 python3-lib2to3 all 3.9.2-1 [77.8 kB]
+Get:14 http://deb.debian.org/debian bullseye/main amd64 python3-distutils all 3.9.2-1 [143 kB]
+Get:15 http://deb.debian.org/debian bullseye/main amd64 python3-dev amd64 3.9.2-3 [24.8 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 8019 kB in 0s (33.1 MB/s)
+Selecting previously unselected package javascript-common.
+(Reading database ... [2025-05-21 06:16:22.120146] (Reading database ... 5%[2025-05-21 06:16:22.125022] (Reading database ... 10%[2025-05-21 06:16:22.125540] (Reading database ... 15%[2025-05-21 06:16:22.125962] (Reading database ... 20%[2025-05-21 06:16:22.126352] (Reading database ... 25%[2025-05-21 06:16:22.126788] (Reading database ... 30%[2025-05-21 06:16:22.127160] (Reading database ... 35%[2025-05-21 06:16:22.127753] (Reading database ... 40%[2025-05-21 06:16:22.128153] (Reading database ... 45%[2025-05-21 06:16:22.128568] (Reading database ... 50%[2025-05-21 06:16:22.128990] (Reading database ... 55%[2025-05-21 06:16:22.129401] (Reading database ... 60%[2025-05-21 06:16:22.130874] (Reading database ... 65%[2025-05-21 06:16:22.135900] (Reading database ... 70%[2025-05-21 06:16:22.138916] (Reading database ... 75%[2025-05-21 06:16:22.140681] (Reading database ... 80%[2025-05-21 06:16:22.144829] (Reading database ... 85%[2025-05-21 06:16:22.148826] (Reading database ... 90%[2025-05-21 06:16:22.150802] (Reading database ... 95%[2025-05-21 06:16:22.153946] (Reading database ... 100%[2025-05-21 06:16:22.154553] (Reading database ... [2025-05-21 06:16:22.155062] 22039 files and directories currently installed.)
+Preparing to unpack .../00-javascript-common_11+nmu1_all.deb ...
+Unpacking javascript-common (11+nmu1) ...
+Selecting previously unselected package libexpat1-dev:amd64.
+Preparing to unpack .../01-libexpat1-dev_2.2.10-2+deb11u7_amd64.deb ...
+Unpacking libexpat1-dev:amd64 (2.2.10-2+deb11u7) ...
+Selecting previously unselected package libjs-jquery.
+Preparing to unpack .../02-libjs-jquery_3.5.1+dfsg+~3.5.5-7_all.deb ...
+Unpacking libjs-jquery (3.5.1+dfsg+~3.5.5-7) ...
+Selecting previously unselected package libjs-underscore.
+Preparing to unpack .../03-libjs-underscore_1.9.1~dfsg-3_all.deb ...
+Unpacking libjs-underscore (1.9.1~dfsg-3) ...
+Selecting previously unselected package libjs-sphinxdoc.
+Preparing to unpack .../04-libjs-sphinxdoc_3.4.3-2_all.deb ...
+Unpacking libjs-sphinxdoc (3.4.3-2) ...
+Selecting previously unselected package libpq5:amd64.
+Preparing to unpack .../05-libpq5_13.21-0+deb11u1_amd64.deb ...
+Unpacking libpq5:amd64 (13.21-0+deb11u1) ...
+Selecting previously unselected package libpq-dev.
+Preparing to unpack .../06-libpq-dev_13.21-0+deb11u1_amd64.deb ...
+Unpacking libpq-dev (13.21-0+deb11u1) ...
+Selecting previously unselected package libpython3.9:amd64.
+Preparing to unpack .../07-libpython3.9_3.9.2-1+deb11u3_amd64.deb ...
+Unpacking libpython3.9:amd64 (3.9.2-1+deb11u3) ...
+Selecting previously unselected package libpython3.9-dev:amd64.
+Preparing to unpack .../08-libpython3.9-dev_3.9.2-1+deb11u3_amd64.deb ...
+Unpacking libpython3.9-dev:amd64 (3.9.2-1+deb11u3) ...
+Selecting previously unselected package libpython3-dev:amd64.
+Preparing to unpack .../09-libpython3-dev_3.9.2-3_amd64.deb ...
+Unpacking libpython3-dev:amd64 (3.9.2-3) ...
+Selecting previously unselected package zlib1g-dev:amd64.
+Preparing to unpack .../10-zlib1g-dev_1%3a1.2.11.dfsg-2+deb11u2_amd64.deb ...
+Unpacking zlib1g-dev:amd64 (1:1.2.11.dfsg-2+deb11u2) ...
+Selecting previously unselected package python3.9-dev.
+Preparing to unpack .../11-python3.9-dev_3.9.2-1+deb11u3_amd64.deb ...
+Unpacking python3.9-dev (3.9.2-1+deb11u3) ...
+Selecting previously unselected package python3-lib2to3.
+Preparing to unpack .../12-python3-lib2to3_3.9.2-1_all.deb ...
+Unpacking python3-lib2to3 (3.9.2-1) ...
+Selecting previously unselected package python3-distutils.
+Preparing to unpack .../13-python3-distutils_3.9.2-1_all.deb ...
+Unpacking python3-distutils (3.9.2-1) ...
+Selecting previously unselected package python3-dev.
+Preparing to unpack .../14-python3-dev_3.9.2-3_amd64.deb ...
+Unpacking python3-dev (3.9.2-3) ...
+Setting up javascript-common (11+nmu1) ...
+Setting up libpq5:amd64 (13.21-0+deb11u1) ...
+Setting up libpq-dev (13.21-0+deb11u1) ...
+Setting up libpython3.9:amd64 (3.9.2-1+deb11u3) ...
+Setting up libexpat1-dev:amd64 (2.2.10-2+deb11u7) ...
+Setting up zlib1g-dev:amd64 (1:1.2.11.dfsg-2+deb11u2) ...
+Setting up libjs-jquery (3.5.1+dfsg+~3.5.5-7) ...
+Setting up python3-lib2to3 (3.9.2-1) ...
+Setting up libjs-underscore (1.9.1~dfsg-3) ...
+Setting up python3-distutils (3.9.2-1) ...
+Setting up libpython3.9-dev:amd64 (3.9.2-1+deb11u3) ...
+Setting up libjs-sphinxdoc (3.4.3-2) ...
+Setting up python3.9-dev (3.9.2-1+deb11u3) ...
+Setting up libpython3-dev:amd64 (3.9.2-3) ...
+Setting up python3-dev (3.9.2-3) ...
+Processing triggers for libc-bin (2.31-13+deb11u11) ...
+
+─────────────────────────────────────── poetry ─────────────────────────────────────────
+
+/mount/src/cric_chat /mount/src/cric_chat
+Updating dependencies
+Resolving dependencies...
+
+The current project's supported Python range (>=3.13) is not compatible with some of the required packages Python requirement:
+  - langchain requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python <4.0,>=3.8.1, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-community requires Python >=3.8.1,<4.0, so it will not be installable for Python >=4.0
+  - langchain-text-splitters requires Python <4.0,>=3.9, so it will not be installable for Python >=4.0
+
+    Because langchain (0.3.24) requires Python <4.0,>=3.9
+ and no versions of langchain match >0.3.24,<0.3.25, langchain is forbidden.
+    And because langchain-community (0.3.23) depends on langchain (>=0.3.24,<1.0.0), langchain-community (0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.3.22) requires Python <4.0,>=3.9
+ and langchain-community (0.3.21) requires Python <4.0,>=3.9, langchain-community (0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.3.20) requires Python <4.0,>=3.9
+ and langchain-community (0.3.19) requires Python <4.0,>=3.9, langchain-community (0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.3.18) requires Python <4.0,>=3.9
+ and langchain-community (0.3.17) requires Python <4.0,>=3.9, langchain-community (0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.3.16) requires Python <4.0,>=3.9
+ and langchain-community (0.3.15) requires Python <4.0,>=3.9, langchain-community (0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.3.14) requires Python <4.0,>=3.9
+ and langchain-community (0.3.13) requires Python <4.0,>=3.9, langchain-community (0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.3.12) requires Python <4.0,>=3.9
+ and langchain-community (0.3.11) requires Python <4.0,>=3.9, langchain-community (0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.3.10) requires Python <4.0,>=3.9
+ and langchain-community (0.3.9) requires Python <4.0,>=3.9, langchain-community (0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.3.8) requires Python <4.0,>=3.9
+ and langchain-community (0.3.7) requires Python <4.0,>=3.9, langchain-community (0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.3.6) requires Python <4.0,>=3.9
+ and langchain-community (0.3.5) requires Python <4.0,>=3.9, langchain-community (0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.3.4) requires Python <4.0,>=3.9
+ and langchain-community (0.3.3) requires Python <4.0,>=3.9, langchain-community (0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.3.2) requires Python <4.0,>=3.9
+ and langchain-community (0.3.1) requires Python <4.0,>=3.9, langchain-community (0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.3.0) requires Python <4.0,>=3.9
+ and langchain-community (0.2.19) requires Python <4.0,>=3.8.1, langchain-community (0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.2.18) requires Python <4.0,>=3.8.1
+ and langchain-community (0.2.17) requires Python <4.0,>=3.8.1, langchain-community (0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.2.16) requires Python <4.0,>=3.8.1
+ and langchain-community (0.2.15) requires Python <4.0,>=3.8.1, langchain-community (0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.2.13) requires Python <4.0,>=3.8.1
+ and langchain-community (0.2.12) requires Python <4.0,>=3.8.1, langchain-community (0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.2.11) requires Python <4.0,>=3.8.1
+ and langchain-community (0.2.10) requires Python <4.0,>=3.8.1, langchain-community (0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.2.9) requires Python <4.0,>=3.8.1
+ and langchain-community (0.2.7) requires Python <4.0,>=3.8.1, langchain-community (0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.2.6) requires Python <4.0,>=3.8.1
+ and langchain-community (0.2.5) requires Python <4.0,>=3.8.1, langchain-community (0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.2.4) requires Python <4.0,>=3.8.1
+ and langchain-community (0.2.3) requires Python <4.0,>=3.8.1, langchain-community (0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.2.2) requires Python <4.0,>=3.8.1
+ and langchain-community (0.2.1) requires Python <4.0,>=3.8.1, langchain-community (0.2.1 || 0.2.2 || 0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.2.0) requires Python <4.0,>=3.8.1
+ and langchain-community (0.0.38) requires Python <4.0,>=3.8.1, langchain-community (0.0.38 || 0.2.0 || 0.2.1 || 0.2.2 || 0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.0.37) requires Python <4.0,>=3.8.1
+ and langchain-community (0.0.36) requires Python <4.0,>=3.8.1, langchain-community (0.0.36 || 0.0.37 || 0.0.38 || 0.2.0 || 0.2.1 || 0.2.2 || 0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.0.35) requires Python <4.0,>=3.8.1
+ and langchain-community (0.0.34) requires Python <4.0,>=3.8.1, langchain-community (0.0.34 || 0.0.35 || 0.0.36 || 0.0.37 || 0.0.38 || 0.2.0 || 0.2.1 || 0.2.2 || 0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.0.33) requires Python <4.0,>=3.8.1
+ and langchain-community (0.0.32) requires Python <4.0,>=3.8.1, langchain-community (0.0.32 || 0.0.33 || 0.0.34 || 0.0.35 || 0.0.36 || 0.0.37 || 0.0.38 || 0.2.0 || 0.2.1 || 0.2.2 || 0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.0.31) requires Python <4.0,>=3.8.1
+ and langchain-community (0.0.30) requires Python <4.0,>=3.8.1, langchain-community (0.0.30 || 0.0.31 || 0.0.32 || 0.0.33 || 0.0.34 || 0.0.35 || 0.0.36 || 0.0.37 || 0.0.38 || 0.2.0 || 0.2.1 || 0.2.2 || 0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.0.29) requires Python <4.0,>=3.8.1
+ and langchain-community (0.0.28) requires Python >=3.8.1,<4.0, langchain-community (0.0.28 || 0.0.29 || 0.0.30 || 0.0.31 || 0.0.32 || 0.0.33 || 0.0.34 || 0.0.35 || 0.0.36 || 0.0.37 || 0.0.38 || 0.2.0 || 0.2.1 || 0.2.2 || 0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.0.27) requires Python >=3.8.1,<4.0
+ and langchain-community (0.0.26) requires Python >=3.8.1,<4.0, langchain-community (0.0.26 || 0.0.27 || 0.0.28 || 0.0.29 || 0.0.30 || 0.0.31 || 0.0.32 || 0.0.33 || 0.0.34 || 0.0.35 || 0.0.36 || 0.0.37 || 0.0.38 || 0.2.0 || 0.2.1 || 0.2.2 || 0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.0.25) requires Python >=3.8.1,<4.0
+ and langchain-community (0.0.24) requires Python >=3.8.1,<4.0, langchain-community (0.0.24 || 0.0.25 || 0.0.26 || 0.0.27 || 0.0.28 || 0.0.29 || 0.0.30 || 0.0.31 || 0.0.32 || 0.0.33 || 0.0.34 || 0.0.35 || 0.0.36 || 0.0.37 || 0.0.38 || 0.2.0 || 0.2.1 || 0.2.2 || 0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.0.23) requires Python >=3.8.1,<4.0
+ and langchain-community (0.0.22) requires Python >=3.8.1,<4.0, langchain-community (0.0.22 || 0.0.23 || 0.0.24 || 0.0.25 || 0.0.26 || 0.0.27 || 0.0.28 || 0.0.29 || 0.0.30 || 0.0.31 || 0.0.32 || 0.0.33 || 0.0.34 || 0.0.35 || 0.0.36 || 0.0.37 || 0.0.38 || 0.2.0 || 0.2.1 || 0.2.2 || 0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.0.21) requires Python >=3.8.1,<4.0
+ and langchain-community (0.0.20) requires Python >=3.8.1,<4.0, langchain-community (0.0.20 || 0.0.21 || 0.0.22 || 0.0.23 || 0.0.24 || 0.0.25 || 0.0.26 || 0.0.27 || 0.0.28 || 0.0.29 || 0.0.30 || 0.0.31 || 0.0.32 || 0.0.33 || 0.0.34 || 0.0.35 || 0.0.36 || 0.0.37 || 0.0.38 || 0.2.0 || 0.2.1 || 0.2.2 || 0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.0.19) requires Python >=3.8.1,<4.0
+ and langchain-community (0.0.18) requires Python >=3.8.1,<4.0, langchain-community (0.0.18 || 0.0.19 || 0.0.20 || 0.0.21 || 0.0.22 || 0.0.23 || 0.0.24 || 0.0.25 || 0.0.26 || 0.0.27 || 0.0.28 || 0.0.29 || 0.0.30 || 0.0.31 || 0.0.32 || 0.0.33 || 0.0.34 || 0.0.35 || 0.0.36 || 0.0.37 || 0.0.38 || 0.2.0 || 0.2.1 || 0.2.2 || 0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.0.17) requires Python >=3.8.1,<4.0
+ and langchain-community (0.0.16) requires Python >=3.8.1,<4.0, langchain-community (0.0.16 || 0.0.17 || 0.0.18 || 0.0.19 || 0.0.20 || 0.0.21 || 0.0.22 || 0.0.23 || 0.0.24 || 0.0.25 || 0.0.26 || 0.0.27 || 0.0.28 || 0.0.29 || 0.0.30 || 0.0.31 || 0.0.32 || 0.0.33 || 0.0.34 || 0.0.35 || 0.0.36 || 0.0.37 || 0.0.38 || 0.2.0 || 0.2.1 || 0.2.2 || 0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.0.15) requires Python >=3.8.1,<4.0
+ and langchain-community (0.0.14) requires Python >=3.8.1,<4.0, langchain-community (0.0.14 || 0.0.15 || 0.0.16 || 0.0.17 || 0.0.18 || 0.0.19 || 0.0.20 || 0.0.21 || 0.0.22 || 0.0.23 || 0.0.24 || 0.0.25 || 0.0.26 || 0.0.27 || 0.0.28 || 0.0.29 || 0.0.30 || 0.0.31 || 0.0.32 || 0.0.33 || 0.0.34 || 0.0.35 || 0.0.36 || 0.0.37 || 0.0.38 || 0.2.0 || 0.2.1 || 0.2.2 || 0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+    And because langchain-community (0.0.13) requires Python >=3.8.1,<4.0
+ and langchain-community (0.0.12) requires Python >=3.8.1,<4.0, langchain-community (0.0.12 || 0.0.13 || 0.0.14 || 0.0.15 || 0.0.16 || 0.0.17 || 0.0.18 || 0.0.19 || 0.0.20 || 0.0.21 || 0.0.22 || 0.0.23 || 0.0.24 || 0.0.25 || 0.0.26 || 0.0.27 || 0.0.28 || 0.0.29 || 0.0.30 || 0.0.31 || 0.0.32 || 0.0.33 || 0.0.34 || 0.0.35 || 0.0.36 || 0.0.37 || 0.0.38 || 0.2.0 || 0.2.1 || 0.2.2 || 0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+(1) So, because langchain-community (0.0.11) requires Python >=3.8.1,<4.0
+ and langchain-community (0.0.10) requires Python >=3.8.1,<4.0, langchain-community (0.0.10 || 0.0.11 || 0.0.12 || 0.0.13 || 0.0.14 || 0.0.15 || 0.0.16 || 0.0.17 || 0.0.18 || 0.0.19 || 0.0.20 || 0.0.21 || 0.0.22 || 0.0.23 || 0.0.24 || 0.0.25 || 0.0.26 || 0.0.27 || 0.0.28 || 0.0.29 || 0.0.30 || 0.0.31 || 0.0.32 || 0.0.33 || 0.0.34 || 0.0.35 || 0.0.36 || 0.0.37 || 0.0.38 || 0.2.0 || 0.2.1 || 0.2.2 || 0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0).
+
+    Because no versions of langchain-community match <0.0.1 || >0.0.1,<0.0.2 || >0.0.2,<0.0.3 || >0.0.3,<0.0.4 || >0.0.4,<0.0.5 || >0.0.5,<0.0.6 || >0.0.6,<0.0.7 || >0.0.7,<0.0.8 || >0.0.8,<0.0.10 || >0.0.10,<0.0.11 || >0.0.11,<0.0.12 || >0.0.12,<0.0.13 || >0.0.13,<0.0.14 || >0.0.14,<0.0.15 || >0.0.15,<0.0.16 || >0.0.16,<0.0.17 || >0.0.17,<0.0.18 || >0.0.18,<0.0.19 || >0.0.19,<0.0.20 || >0.0.20,<0.0.21 || >0.0.21,<0.0.22 || >0.0.22,<0.0.23 || >0.0.23,<0.0.24 || >0.0.24,<0.0.25 || >0.0.25,<0.0.26 || >0.0.26,<0.0.27 || >0.0.27,<0.0.28 || >0.0.28,<0.0.29 || >0.0.29,<0.0.30 || >0.0.30,<0.0.31 || >0.0.31,<0.0.32 || >0.0.32,<0.0.33 || >0.0.33,<0.0.34 || >0.0.34,<0.0.35 || >0.0.35,<0.0.36 || >0.0.36,<0.0.37 || >0.0.37,<0.0.38 || >0.0.38,<0.2.0 || >0.2.0,<0.2.1 || >0.2.1,<0.2.2 || >0.2.2,<0.2.3 || >0.2.3,<0.2.4 || >0.2.4,<0.2.5 || >0.2.5,<0.2.6 || >0.2.6,<0.2.7 || >0.2.7,<0.2.9 || >0.2.9,<0.2.10 || >0.2.10,<0.2.11 || >0.2.11,<0.2.12 || >0.2.12,<0.2.13 || >0.2.13,<0.2.15 || >0.2.15,<0.2.16 || >0.2.16,<0.2.17 || >0.2.17,<0.2.18 || >0.2.18,<0.2.19 || >0.2.19,<0.3.0 || >0.3.0,<0.3.1 || >0.3.1,<0.3.2 || >0.3.2,<0.3.3 || >0.3.3,<0.3.4 || >0.3.4,<0.3.5 || >0.3.5,<0.3.6 || >0.3.6,<0.3.7 || >0.3.7,<0.3.8 || >0.3.8,<0.3.9 || >0.3.9,<0.3.10 || >0.3.10,<0.3.11 || >0.3.11,<0.3.12 || >0.3.12,<0.3.13 || >0.3.13,<0.3.14 || >0.3.14,<0.3.15 || >0.3.15,<0.3.16 || >0.3.16,<0.3.17 || >0.3.17,<0.3.18 || >0.3.18,<0.3.19 || >0.3.19,<0.3.20 || >0.3.20,<0.3.21 || >0.3.21,<0.3.22 || >0.3.22,<0.3.23 || >0.3.23,<0.3.24 || >0.3.24
+ and langchain-community (0.0.1) requires Python >=3.8.1,<4.0, langchain-community is forbidden.
+    And because langchain-community (0.0.2) requires Python >=3.8.1,<4.0, langchain-community is forbidden.
+    And because langchain-community (0.0.3) requires Python >=3.8.1,<4.0
+ and langchain-community (0.0.4) requires Python >=3.8.1,<4.0, langchain-community is forbidden.
+    And because langchain-community (0.0.5) requires Python >=3.8.1,<4.0
+ and langchain-community (0.0.6) requires Python >=3.8.1,<4.0, langchain-community is forbidden.
+    And because langchain-community (0.0.7) requires Python >=3.8.1,<4.0
+ and langchain-community (0.0.8) requires Python >=3.8.1,<4.0, langchain-community is forbidden.
+    And because langchain-community (0.0.10 || 0.0.11 || 0.0.12 || 0.0.13 || 0.0.14 || 0.0.15 || 0.0.16 || 0.0.17 || 0.0.18 || 0.0.19 || 0.0.20 || 0.0.21 || 0.0.22 || 0.0.23 || 0.0.24 || 0.0.25 || 0.0.26 || 0.0.27 || 0.0.28 || 0.0.29 || 0.0.30 || 0.0.31 || 0.0.32 || 0.0.33 || 0.0.34 || 0.0.35 || 0.0.36 || 0.0.37 || 0.0.38 || 0.2.0 || 0.2.1 || 0.2.2 || 0.2.3 || 0.2.4 || 0.2.5 || 0.2.6 || 0.2.7 || 0.2.9 || 0.2.10 || 0.2.11 || 0.2.12 || 0.2.13 || 0.2.15 || 0.2.16 || 0.2.17 || 0.2.18 || 0.2.19 || 0.3.0 || 0.3.1 || 0.3.2 || 0.3.3 || 0.3.4 || 0.3.5 || 0.3.6 || 0.3.7 || 0.3.8 || 0.3.9 || 0.3.10 || 0.3.11 || 0.3.12 || 0.3.13 || 0.3.14 || 0.3.15 || 0.3.16 || 0.3.17 || 0.3.18 || 0.3.19 || 0.3.20 || 0.3.21 || 0.3.22 || 0.3.23) requires langchain (>=0.3.25,<1.0.0) (1), langchain-community (!=0.3.24) requires langchain (>=0.3.25,<1.0.0)
+    And because langchain-community (0.3.24) depends on langchain (>=0.3.25,<1.0.0), every version of langchain-community requires langchain (>=0.3.25,<1.0.0).
+    And because no versions of langchain match >0.3.25,<1.0.0
+ and langchain (0.3.25) depends on langchain-text-splitters (>=0.3.8,<1.0.0), every version of langchain-community requires langchain-text-splitters (>=0.3.8,<1.0.0).
+    Because no versions of langchain-text-splitters match >0.3.8,<1.0.0
+ and langchain-text-splitters (0.3.8) requires Python <4.0,>=3.9, langchain-text-splitters is forbidden.
+    Thus, langchain-community is forbidden.
+    So, because cricket-image-chatbot depends on langchain-community (*), version solving failed.
+
+  * Check your dependencies Python requirement: The Python requirement can be specified via the `python` or `markers` properties
+
+    For langchain, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-community, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+For langchain-text-splitters, a possible solution would be to set the `python` property to ">=3.13,<4.0"
+
+    https://python-poetry.org/docs/dependency-specification/#python-restricted-dependencies,
+    https://python-poetry.org/docs/dependency-specification/#using-environment-markers
+
+/mount/src/cric_chat
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[06:17:10] ❗️ installer returned a non-zero exit code
+[06:17:10] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
